@@ -13,6 +13,7 @@
   <style>
     .demo .row > [class*="col"] { padding: 1rem; border: 1px solid #b9a6d9; background: #f4f1f9; }
     .demo h2 { margin-top: 2rem; font-size: 1.1rem; }
+    .reto .row > [class*="col"] { padding: 1rem; border: 1px solid #b9a6d9; background: #f4f1f9; }
   </style>
 </head>
 <body>
@@ -105,7 +106,7 @@ Columna 4
 
     <!-- PASO 5: una columna centrada de dos formas: offset-md-3 y justify-content-center -->
     <h2>5. Centrar</h2>
-    <div class="row">
+    <div class="row mb-2">
       <div class="col offset-md-3">Columna 1</div>
     </div>
     <div class="row justify-content-center">
@@ -123,50 +124,49 @@ Columna 4
       <div class="col">D</div>
 
     </div>
-
-
+</div>
+<h1>RETO: Maqueta de periódico</h1>
     <!-- RETO: maqueta de periódico (cabecera 12 · artículo 8 + lateral 4 · 3 noticias) -->
-     <div class="container my-4">
+     <div class="container reto my-4">
 
 <!--Cabecera (12)-->
-      <div class="row mb-3">
+      <div class="row ">
         <div class="col-12">
-          <h1 class="p-4 text-center display-4 fw-bold">Cabecera de periódico</h1>
+          <h2 class="text-center fw-bold display-4">Cabecera de periódico</h2>
         </div>
       </div>
   <!--Artículo principal y laterial-->
-      <div class="row mb-3">
-
-        <div class="col-8">
+      <div class="row g-4">
+        <div class="col-12 col-lg-8">
           <h3>Artículo</h3>
           <p >Lorem ipsum</p>
         </div>
-        <div class="col-4">
-          <h2>Lateral</h2>
+        <div class="col-12 col-lg-4">
+          <h3>Lateral</h3>
           <p>Lorem ipsum</p>
         </div>
 
       </div>
-<div class="row">
-    <div class="col">
-      <h2>Noticia 1</h2>
+<div class="row g-4">
+    <div class="col-12 col-md-4">
+      <h3>Noticia 1</h3>
       <p>Lorem ipsum</p>
     </div>
-    <div class="col">
-      <h2>Noticia 1</h2>
+    <div class="col-12 col-md-4">
+      <h3>Noticia 1</h3>
       <p>Lorem ipsum</p>
     </div>
-    <div class="col">
-      <h2>Noticia 1</h2>
+    <div class="col-12 col-md-4">
+      <h3>Noticia 1</h3>
       <p>Lorem ipsum</p>
     </div>
 </div>
 
 
 
-     </div>
+    </div>
 
-  </div>
+  
 
   <!-- Botón para volver al índice del proyecto (puedes dejarlo) -->
   <a href="../index.html" class="btn btn-sm btn-outline-secondary position-fixed bottom-0 end-0 m-3 z-3">← Índice</a>
